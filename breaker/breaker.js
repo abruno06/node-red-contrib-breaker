@@ -19,6 +19,7 @@ module.exports = function (RED) {
             delete msg.req;
             delete msg.res;
             if (msg.payload) {
+                console.dir(msg,{depth:null,colors:true});
               m.payload = JSON.parse(JSON.stringify(msg.payload))
             }
             if (req) {
