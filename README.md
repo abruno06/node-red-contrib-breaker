@@ -14,3 +14,5 @@ This node have the following impact in msg.payload, due to Side effect of JSON.s
 
 
 So make sure msg.payload only contain values.
+
+With Nodered 2.1 and deep-clone option for change node, this make this node less useful
